@@ -8,7 +8,7 @@ body {
 }
 
 .navbar{
-    width: 100%;
+    width: 100vw;
 }
 .main{
     position: relative;
@@ -121,7 +121,7 @@ body {
 @media (max-width: 1023px) {
     .container{
         margin-top: 100vh;
-        min-width: 1000px;
+        min-width: 1023px;
         width: 95%;
     }
     .slider-wrapper .image-list{
@@ -137,7 +137,7 @@ body {
 
     .container{
         margin-top: 0vh;
-        min-width: 660px;
+        min-width: 670px;
         width: 95%;
     }
     .slider-wrapper .image-list{
@@ -192,7 +192,8 @@ body {
 @media (max-width: 410px) {
     .container{
         /* margin-top: 93vh; */
-        min-width: 390px;
+        min-width: 410px;
+        /* width: 95%; */
         width: 95%;
     }
     .slider-wrapper .image-list{
